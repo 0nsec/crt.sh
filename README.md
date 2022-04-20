@@ -6,7 +6,7 @@
 
 𝑼𝒔𝒂𝒈𝒆 𝒊𝒔 𝒑𝒓𝒆𝒕𝒕𝒚 𝒔𝒊𝒎𝒑𝒍𝒆:
 
-![alt text](https://i.ibb.co/sVbzXPc/Screenshot.png)
+![alt text](https://i.ibb.co/NmgvcRw/Screenshot-2022-04-20-08-55-51-64-84d3000e3f4017145260f7618db1d683.jpg)
 
 
 𝙎𝙩𝙚𝙥 1:
