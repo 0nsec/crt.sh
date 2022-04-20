@@ -6,7 +6,7 @@
 
 𝑼𝒔𝒂𝒈𝒆 𝒊𝒔 𝒑𝒓𝒆𝒕𝒕𝒚 𝒔𝒊𝒎𝒑𝒍𝒆:
 
-![alt text][url=https://ibb.co/ZYRjq9y][img]https://i.ibb.co/ZYRjq9y/Screenshot-2022-04-20-08-55-51-64-84d3000e3f4017145260f7618db1d683.jpg[/img][/url]
+[url=https://ibb.co/ZYRjq9y][img]https://i.ibb.co/ZYRjq9y/Screenshot-2022-04-20-08-55-51-64-84d3000e3f4017145260f7618db1d683.jpg[/img][/url]
 
 𝙎𝙩𝙚𝙥 1:
 ```
