@@ -11,7 +11,7 @@
 
 𝙎𝙩𝙚𝙥 1:
 ```
-git clone https://github.com/az7rb/crt.sh.git
+git clone https://github.com/0nsec/crt.sh
 ```
 𝙎𝙩𝙚𝙥 2:
 ```
