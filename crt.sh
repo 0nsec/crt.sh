@@ -2,7 +2,7 @@
 echo -e "
 \e[32m[+]\e[0m 𝙳𝚘𝚖𝚊𝚒𝚗 𝚂𝚎𝚊𝚛𝚌𝚑 𝚎𝚗𝚐𝚒𝚗𝚎 :
 \e[32m[+]\e[0m 𝙼𝚊𝚍𝚎 𝚋𝚢:
-\e[32m[+]\e[0m B¥ Notyoursxx0 «--•}
+\e[32m[+]\e[0m BY Notyoursxx0 «--•}
 \e[32m[+]\e[0m 𝙶𝙸𝚃𝙷𝚄𝙱 :
 \e[32m[+]\e[0m Github.com/0nsec
         "
@@ -21,7 +21,7 @@ search() {
 
 if [ -z $1 ]
         then
-                echo "USAGE: $0 [domain.com] "
+                echo "USAGE: $0 [domain.com]"
                 exit
         else
                 domain=$1
