@@ -1,4 +1,75 @@
-## crt.sh
+# crt.sh
+
+ powerful and versatile domain search tool that fetches subdomains and related domains from SSL certificates using the [crt.sh](https://crt.sh/) database. Perfect for bug bounty hunters, penetration testers, and security researchers!
+
+
+## Features
+
+- **Subdomain Enumeration**: Discover subdomains and related domains for any given domain.
+- **Multiple Domain Support**: Process multiple domains in a single run.
+- **Output Formats**: Save results in **text** or **JSON** format.
+- **Verbose Mode**: Enable detailed logging for debugging and progress tracking.
+- **Rate Limiting**: Add delays between requests to avoid overloading the server.
+- **Error Logging**: Automatically logs errors to `error.log` for easy debugging.
+- **User-Friendly**: Color-coded output and clear progress indicators.
+
+
+---
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/0nsec/domain-search-engine.git
+   ```
+   ```
+   cd domain-search-engine
+   ```
+### Install Dependencies:
+```
+sudo apt update && sudo apt install curl jq
+```
+
+## **Usage**:
+
+Basic Usage:
+```bash
+
+
+./domain_search.sh example.com
+```
+Multiple Domains:
+```bash
+
+./domain_search.sh example.com example.org
+```
+Verbose Mode:
+```bash
+./domain_search.sh -v example.com
+```
+JSON Output:
+```bash
+./domain_search.sh -o json example.com
+```
+Custom Delay:
+```bash
+./domain_search.sh -d 2 example.com
+```
+Combined Options:
+```bash
+./domain_search.sh -v -o json -d 2 example.com example.org
+```
+---
+Credits
+
+  * Author: Notyoursxx0
+
+ * GitHub: Github.com/0nsec
+
+ * Inspiration: crt.sh
+
+---
+
 ```sh
 ██████╗ ███╗   ██╗███████╗███████╗ ██████╗
 ██╔═████╗████╗  ██║██╔════╝██╔════╝██╔════╝
@@ -7,31 +78,4 @@
 ╚██████╔╝██║ ╚████║███████║███████╗╚██████╗
  ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝
 ```
-𝚃𝚑𝚒𝚜 𝚋𝚊𝚜𝚑 𝚜𝚌𝚛𝚒𝚙𝚝 𝚖𝚊𝚔𝚎𝚜 𝚒𝚝 𝚎𝚊𝚜𝚢 𝚝𝚘 𝚚𝚞𝚒𝚌𝚔𝚕𝚢 𝚘𝚞𝚝𝚙𝚞𝚝 𝚏𝚛𝚘𝚖 𝚑𝚝𝚝𝚙𝚜://𝚌𝚛𝚝.𝚜𝚑 𝚠𝚎𝚋𝚜𝚒𝚝𝚎.
-𝚈𝚘𝚞 𝚌𝚊𝚗 𝚊𝚕𝚜𝚘 𝚜𝚊𝚟𝚎 𝚝𝚑𝚎 𝚛𝚎𝚜𝚞𝚕𝚝... 
 
-
-𝑼𝒔𝒂𝒈𝒆 𝒊𝒔 𝒑𝒓𝒆𝒕𝒕𝒚 𝒔𝒊𝒎𝒑𝒍𝒆:
-
-![alt text](https://i.ibb.co/NmgvcRw/Screenshot-2022-04-20-08-55-51-64-84d3000e3f4017145260f7618db1d683.jpg)
-
-
-𝙎𝙩𝙚𝙥 1:
-```
-git clone https://github.com/0nsec/crt.sh
-```
-𝙎𝙩𝙚𝙥 2:
-```
-cd crt.sh/
-```
-𝙎𝙩𝙚𝙥 3:
-```
-chmod +x crt.sh
-```
-𝙎𝙩𝙚𝙥 4:
-```
-./crt.sh [domain.com]
-```
-
-𝚃𝚑𝚒𝚜 𝚠𝚒𝚕𝚕 𝚠𝚛𝚒𝚝𝚎 𝚊𝚕𝚕 𝚘𝚏 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖𝚎𝚛𝚊𝚝𝚎𝚍 𝚜𝚞𝚋𝚍𝚘𝚖𝚊𝚒𝚗𝚜 𝚝𝚘 𝚝𝚑𝚎 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚎𝚍 𝚘𝚞𝚝𝚙𝚞𝚝 𝚏𝚒𝚕𝚎.. 
- 
