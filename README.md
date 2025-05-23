@@ -36,28 +36,28 @@ Basic Usage:
 ```bash
 
 
-./domain_search.sh example.com
+./crt.sh example.com
 ```
 Multiple Domains:
 ```bash
 
-./domain_search.sh example.com example.org
+./crt.sh example.com example.org
 ```
 Verbose Mode:
 ```bash
-./domain_search.sh -v example.com
+./crt.sh -v example.com
 ```
 JSON Output:
 ```bash
-./domain_search.sh -o json example.com
+./crt.sh -o json example.com
 ```
 Custom Delay:
 ```bash
-./domain_search.sh -d 2 example.com
+./crt.sh -d 2 example.com
 ```
 Combined Options:
 ```bash
-./domain_search.sh -v -o json -d 2 example.com example.org
+./crt.sh -v -o json -d 2 example.com example.org
 ```
 ---
 Credits
