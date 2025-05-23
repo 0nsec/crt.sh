@@ -20,7 +20,7 @@
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/0nsec/domain-search-engine.git
+   git clone https://github.com/0nsec/crt.sh.git
    ```
    ```
    cd domain-search-engine
